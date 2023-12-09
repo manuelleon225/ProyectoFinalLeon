@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <title>TIENDA VIRTUAL LEÓN</title>
+</head>
+<body>
+    <h1>BIENVENIDOS A NUESTRA TIENDA LEÓN</h1>
+    <h3>Calculamos el precio de tu compra</h3>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <h2>Lista de Productos</h2>
+                <div id="productosTienda"></div>
+            </div>
+            <div class="col-lg-6">
+                    <div class="col-lg-10">
+                    <label class="form-label">Producto</label>
+                    <input type="text" class="form-control" id="producto">
+                    </div>
+                    <div class="col-lg-10">
+                    <label class="form-label">Cantidad</label>
+                    <input type="number" class="form-control" id="cantidad">
+                    </div>
+                    <br>
+                    <div class="col-lg-10">
+                    <button type="button" class="btn btn-primary" id="agregarProducto">Agregar Producto</button>
+                    <button type="button" class="btn btn-success" id="finalizarCompra">Finalizar Compra</button>
+                    </div>
+                <br>
+                <div id="datosFactura"></div>
+            </div>
+        </div>
+        
+        <div class="container">
+            <div class="row">
+              <div id="factura" class="col-lg-12 mx-auto"></div>
+              <div id="Tablas" class="col-lg-12 mx-auto"></div>
+            </div>
+          </div>           
+
+    </div>
+
+</body>
+<script type="text/javascript" src="main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</html>

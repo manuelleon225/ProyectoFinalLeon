@@ -1,0 +1,31 @@
+@font-face {
+    font-family: "Bitstream Vera Serif Bold";
+    src: url("https://mdn.github.io/css-examples/web-fonts/VeraSeBd.ttf");
+}
+
+body {
+    font-family: "Bitstream Vera Serif Bold", "serif";
+    text-align: center;
+}
+
+table {
+    border: 1px solid;
+    width: 60%;
+    margin: 0 auto;
+    background: white;
+}
+
+td {
+    border: 1px solid;
+}
+
+.fila {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.fila h4 {
+    margin: 10px 140px;
+}
